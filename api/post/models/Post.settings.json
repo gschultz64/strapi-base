@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Date Posted": {
+      "default": "",
+      "type": "date"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Content": {
+      "default": "",
+      "type": "text"
+    },
+    "Title": {
+      "default": "",
+      "type": "text"
+    },
+    "user": {
+      "model": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
+    }
+  }
+}
