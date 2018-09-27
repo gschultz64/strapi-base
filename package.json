@@ -22,7 +22,9 @@
     "lodash": "4.x.x",
     "strapi": "3.0.0-alpha.14.1.1",
     "strapi-email-sendgrid": "^3.0.0-alpha.14.1.1",
-    "strapi-hook-mongoose": "3.0.0-alpha.14.1.1"
+    "strapi-hook-mongoose": "3.0.0-alpha.14.1.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
   },
   "author": {
     "name": "A Strapi developer",
