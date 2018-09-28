@@ -6,6 +6,7 @@
   "main": "./server.js",
   "scripts": {
     "setup": "cd admin && npm run setup",
+    "heroku": "cd client && npm install --only=dev && npm install",
     "start": "node server.js",
     "strapi": "node_modules/strapi/bin/strapi.js",
     "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
